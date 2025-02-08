@@ -4910,11 +4910,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HP\\Documents\\JunkFolder\\api\\api.csproj",
+      "projectUniqueName": "C:\\Users\\HP\\Documents\\devs\\JunkFolder\\api\\api.csproj",
       "projectName": "api",
-      "projectPath": "C:\\Users\\HP\\Documents\\JunkFolder\\api\\api.csproj",
+      "projectPath": "C:\\Users\\HP\\Documents\\devs\\JunkFolder\\api\\api.csproj",
       "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\HP\\Documents\\JunkFolder\\api\\obj\\",
+      "outputPath": "C:\\Users\\HP\\Documents\\devs\\JunkFolder\\api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
