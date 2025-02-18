@@ -83,7 +83,6 @@ namespace api.Controllers
                 return Unauthorized("Invalid Username!");
             }
             var result = await _signInManager.CheckPasswordSignInAsync(user, loginDto.Password, false);
-
             if (!result.Succeeded)
                 return Unauthorized("Username not found and/or password not correct!");
 
