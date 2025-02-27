@@ -72,7 +72,7 @@ namespace api.Controllers
             var appUser = await _userManager.FindByNameAsync(username);
             
             var commentModel = createCommentDto.ToCommentFromCreate(stockId);
-            commentModel.AppUserId = appUser.UserId;
+            commentModel.AppuserId = appUser.Id;
             await _commentRepo.CreateAsync(commentModel);
 
             return CreatedAtAction(nameof(GetById), new
